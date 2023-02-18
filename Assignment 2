@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int n,i;
+	n=1;
+	while(n<=10)
+	{
+		i=n*n*n;
+		printf("%d\t%d\n",n,i);
+		n++;
+	}
+}
